@@ -11,7 +11,7 @@ ResourceIncludes=
 MakeIncludes=
 Compiler=
 CppCompiler=
-Linker="../../Program Files (x86)/Dev-Cpp/MinGW32/lib/libopengl32.a"_@@_"../../Program Files (x86)/Dev-Cpp/MinGW32/lib/libglu32.a"_@@_"../../Program Files (x86)/Dev-Cpp/MinGW32/lib/libglut32.a"_@@_
+Linker="../../../../../Program Files (x86)/Dev-Cpp/MinGW32/lib/libopengl32.a"_@@_"../../../../../Program Files (x86)/Dev-Cpp/MinGW32/lib/libglu32.a"_@@_"../../../../../Program Files (x86)/Dev-Cpp/MinGW32/lib/libglut32.a"_@@_
 IsCpp=1
 Icon=
 ExeOutput=
@@ -29,7 +29,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
 CompilerSettings=0000000000000000000000000
-UnitCount=8
+UnitCount=10
 
 [VersionInfo]
 Major=1
@@ -124,6 +124,26 @@ BuildCmd=
 FileName=Utils.h
 CompileCpp=1
 Folder=Project1
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit9]
+FileName=UserInterface.cpp
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit10]
+FileName=UserInterface.h
+CompileCpp=1
+Folder=
 Compile=1
 Link=1
 Priority=1000
